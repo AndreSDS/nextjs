@@ -1,5 +1,5 @@
+import React, { Suspense } from "react";
 import Image from "next/image";
-import { Suspense } from "react";
 
 export const revalidate = 0;
 
@@ -14,7 +14,7 @@ export default function Home() {
         <Image src="/nextjs.svg" alt="Next.js Logo" width={180} height={37} />
       </div>
       <div className="m-4">
-        <h1 className="text-lg text-center">Streaming with Suspense</h1>
+        <h1 className="text-lg text-center">André Souza</h1>
         <Suspense fallback={<FeedSkeleton />}>
           <Feed />
         </Suspense>
