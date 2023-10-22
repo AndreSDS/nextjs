@@ -1,5 +1,5 @@
-import React, { Suspense } from "react";
 import Image from "next/image";
+import { Suspense } from "react";
 
 export const revalidate = 0;
 
